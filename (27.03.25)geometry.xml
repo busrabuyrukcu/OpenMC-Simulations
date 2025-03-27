@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" name="Fuel_UO2" region="-3 -2 1" universe="1"/>
+  <cell id="2" material="2" name="Clad" region="3 -6 -5 4" universe="1"/>
+  <cell id="3" material="3" name="Top end plug upper peace" region="-9 -8 7" universe="1"/>
+  <cell id="4" material="3" name="Top end plug lower peace" region="-12 -11 10" universe="1"/>
+  <cell id="5" material="4" name="lower end plug" region="-15 -14 13" universe="1"/>
+  <cell id="6" material="6" name="water among rods" region="16 -17 18 -19 -20 21 ~((-3 -2 1) | (3 -6 -5 4) | (-9 -8 7) | (-12 -11 10) | (-15 -14 13) | (24 -25 26 -27 22 -23))" universe="1"/>
+  <cell id="7" material="5" name="acrylic plate at the end" region="24 -25 26 -27 22 -23" universe="1"/>
+  <cell fill="2" id="8" name="20x18 assembly cell" region="32 -33 34 -35 31 -30" universe="3"/>
+  <cell id="9" material="6" name="Outer Water Reflector" region="38 -39 40 -41 36 -37 ~(32 -33 34 -35 31 -30)" universe="3"/>
+  <lattice id="2" name="20x18 Assembly">
+    <pitch>2.032 2.032</pitch>
+    <dimension>20 18</dimension>
+    <lower_left>-20.32 -18.288</lower_left>
+    <universes>
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </universes>
+  </lattice>
+  <surface coeffs="1.27" id="1" type="z-plane"/>
+  <surface coeffs="92.71" id="2" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.5588" id="3" name="Fuel" type="z-cylinder"/>
+  <surface coeffs="0" id="4" type="z-plane"/>
+  <surface coeffs="93.19" id="5" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.635" id="6" name="Clad Outer R" type="z-cylinder"/>
+  <surface coeffs="92.71" id="7" type="z-plane"/>
+  <surface coeffs="93.19" id="8" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.5588" id="9" name="Top end plug lower peace" type="z-cylinder"/>
+  <surface coeffs="93.19" id="10" type="z-plane"/>
+  <surface coeffs="98.27" id="11" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.635" id="12" name="Top end plug upper peace" type="z-cylinder"/>
+  <surface coeffs="0" id="13" type="z-plane"/>
+  <surface coeffs="1.27" id="14" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.635" id="15" name="Lower end plug" type="z-cylinder"/>
+  <surface coeffs="-1.016" id="16" type="x-plane"/>
+  <surface coeffs="1.016" id="17" type="x-plane"/>
+  <surface coeffs="-1.016" id="18" type="y-plane"/>
+  <surface coeffs="1.016" id="19" type="y-plane"/>
+  <surface coeffs="98.27" id="20" type="z-plane"/>
+  <surface coeffs="-2.54" id="21" type="z-plane"/>
+  <surface coeffs="-2.54" id="22" type="z-plane"/>
+  <surface coeffs="0" id="23" type="z-plane"/>
+  <surface coeffs="-1.016" id="24" type="x-plane"/>
+  <surface coeffs="1.016" id="25" type="x-plane"/>
+  <surface coeffs="-1.016" id="26" type="y-plane"/>
+  <surface coeffs="1.016" id="27" type="y-plane"/>
+  <surface coeffs="98.27" id="30" type="z-plane"/>
+  <surface coeffs="-2.54" id="31" type="z-plane"/>
+  <surface coeffs="-20.32" id="32" type="x-plane"/>
+  <surface coeffs="20.32" id="33" type="x-plane"/>
+  <surface coeffs="-18.288" id="34" type="y-plane"/>
+  <surface coeffs="18.288" id="35" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-17.84" id="36" type="z-plane"/>
+  <surface boundary="reflective" coeffs="108.19" id="37" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-50.32" id="38" type="x-plane"/>
+  <surface boundary="reflective" coeffs="50.32" id="39" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-48.288" id="40" type="y-plane"/>
+  <surface boundary="reflective" coeffs="48.288" id="41" type="y-plane"/>
+</geometry>
